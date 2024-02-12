@@ -36,7 +36,7 @@ async def start(event):
     
     await event.client.send_file(
         event.chat_id,
-        file="https://telegra.ph/file/56d1760224589ee370186.jpg",
+        file="https://telegra.ph/file/bbbb846a0f90cda1d05dd.jpg",
         caption="━━━━━━━━━━━━━━━━━━━━━━━━\n\n✯ ɪ ᴀᴍ ᴊ.ᴀ.ʀ.ᴠ.ɪ.s ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✯ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣✯ ᴍᴀᴀʟɪᴋ    : [ʜᴀᴍᴀʀᴇ ᴍᴀʟɪᴋ](https://t.me/Rudra0_9_1)\n┣✯ ɢʀᴏᴜᴘ › : [ᴏᴜʀ ɢʀᴏᴜᴘ](https://t.me/friends_chat_groupz)┓\n┣✯ 2ɴᴅ ɢʀᴏᴜᴘ › : [ᴏᴜʀ 2ɴᴅ ɢʀᴏᴜᴘ](https://t.me/F_I_R_group)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴍᴀᴀʟɪᴋ](https://t.me/Rudra0_9_1) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
         link_preview=False,
         buttons=[
@@ -52,7 +52,7 @@ async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
-    helptext = "✯ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ᴊ.ᴀ.ʀ.ᴠ.ɪ.s ᴍᴇɴᴛɪᴏɴ\n\n✯ ᴄᴏᴍᴍᴀɴᴅ: /mentionall\n✯ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴛᴏ ᴄᴀɴᴄᴇʟ ɢᴏɪɴɢ ᴏɴ ᴘʀᴏᴄᴇss.\n✯ ᴄᴏᴍᴍᴀɴᴅ /admin ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴀᴅᴍɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n✯ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.\n✯ `Example: /mentionall Good Morning!`\n✯ Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ."
+    helptext = "✯ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ᴊ.ᴀ.ʀ.ᴠ.ɪ.s ᴍᴇɴᴛɪᴏɴ\n\n✯ ᴄᴏᴍᴍᴀɴᴅ: @all\n✯ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴛᴏ ᴄᴀɴᴄᴇʟ ɢᴏɪɴɢ ᴏɴ ᴘʀᴏᴄᴇss.\n✯ ᴄᴏᴍᴍᴀɴᴅ /admin ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴀᴅᴍɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n✯ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.\n✯ `Example: @all Good Morning!`\n✯ Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ."
     await event.reply(
         helptext,
         link_preview=False,
@@ -70,7 +70,7 @@ async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
-    helptext = "✯ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴊ.ᴀ.ʀ.ᴠ.ɪ.s ᴍᴇɴᴛɪᴏɴ\n\n✯ ᴍʏ ᴏᴡɴᴇʀ ɪs [ʙʀᴀɴᴅᴇᴅ ʙᴏᴛ](https://t.me/BRANDRD_BOT)\n✯ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʙʀᴀɴᴅᴇᴅ\n✯ ʏᴏᴜᴛᴜʙᴇ [ᴄʜᴀɴɴᴇʟ](https://youtube.com/TrickyBranded)\n✯ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
+    helptext = "✯ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴊ.ᴀ.ʀ.ᴠ.ɪ.s ᴍᴇɴᴛɪᴏɴ\n\n✯ ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴍᴀᴀʟɪᴋ 🧧](https://t.me/Rudra0_9_1)\n✯ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʟᴏᴛᴏᴜs\n✯ 2ɴᴅ ɢʀᴏᴜᴘ [ɢʀᴏᴜᴘ](https://t.me/F_I_R_group)\n✯ ᴊᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ɢʀᴏᴜᴘ[ɢʀᴏᴜᴘ](https://t.me/friends_chat_groupz) ."
     await event.reply(
         helptext,
         link_preview=False,
@@ -83,7 +83,7 @@ async def help(event):
     )
 
 
-@client.on(events.NewMessage(pattern="^/mentionall ?(.*)"))
+@client.on(events.NewMessage(pattern="^@all ?(.*)"))
 async def mentionall(event):
     chat_id = event.chat_id
     if event.is_private:
